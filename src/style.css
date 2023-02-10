@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav > h3{
+  margin: 0;
+  color: aqua;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.App {
+  display: flex;
+  margin-top: 20px;
+}
